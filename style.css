@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e5e5e5;
+  font-family: 'Poppins', sans-serif;
+}
+
+body::before {
+  content: "";
+  width: 100%;
+  height: 436px;
+  background: #535971;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+header {
+  padding-top: 140px;
+}
+
+header h1 {
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+header p {
+  width: 417px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 58px;
+}
+
+#container {
+  margin: auto;
+  width: 900px;
+}
+
+form {
+  padding: 64px;
+  background: #ffffff;
+  border-radius: 20px 20px 0 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  border-bottom: 1 px solid #e6e6f0;
+  width: 100%;
+  padding-bottom: 16px;
+  color: #535971;
+  padding-top: 30px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper input {
+  width: 100%;
+  background: #fafafc;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  height: 56px;
+  padding: 10px;
+  color: #535971;
+}
+
+.input-wrapper-group {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  padding-top: 36px;
+}
+
+.input-wrapper-group input {
+  width: 300px;
+  height: 56px;
+}
+
+.input-wrapper label {
+  color: #4e4958;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
+
+.input-wrapper label span {
+  color: #c1bccc;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+input-wrapper label span:hover {
+  color: #777280;
+}
+
+.col-3 {
+  display: flex;
+  gap: 10px;
+}
+
+.col-3 .input-wrapper #mentorship-date {
+  padding-right: 32px;
+}
+
+.col-3>div:nth-child(1) {
+  width: 100%;
+}
+
+.mentorship-time {
+  padding-top: 32px;
+  font-family: 'Staatliches', cursive;
+  color: #535971;
+}
+
+footer {
+  width: 100%;
+  background: #535971;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0 0 20px 20px;
+}
+
+#btn-submit {
+
+  width: 70%;
+  height: 3rem;
+  background-color: #FF5374;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 20px;
+}
